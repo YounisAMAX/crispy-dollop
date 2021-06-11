@@ -11,6 +11,6 @@ Return the next greater number using the same digits as the parameter.
 - Parse the resulted number into an integer and return it
 
 ## What could have been done differently
-- Checks for the negative number
+- Checks for negative numbers
 - There might be a mathematical solution to this problem
 
