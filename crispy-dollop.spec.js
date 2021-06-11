@@ -25,7 +25,7 @@ describe("Crispy Dollop", () => {
         expect(crispyDollop.nextNumber(531)).toBe(-1);
     });
 
-    it("solve 12345", () => {
+    it("solve 1999", () => {
         expect(crispyDollop.nextNumber(12345)).toBe(12354);
     });
     it("solve 12354", () => {

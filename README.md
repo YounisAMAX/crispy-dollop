@@ -1,12 +1,12 @@
 # Crispy Dollop
 
 ## Problem
-Return the next greater number using the same digits as the parameter.
+Return the next greater number using the same digits as the parameter. Return -1 if not found
 
 ## Method
 - Convert the number into ```string```
 - Loop through the digits to find a digit smaller than the first digit.
-- If the smaller digit is found, then swap it with the first digit
+- If the smaller digit is found, then swap it with the first digit. Otherwise, return -1
 - Sort all the digits below the order of magnitude of the smaller digit in an ascending order towards the units digit
 - Parse the resulted number into an integer and return it
 
