@@ -1,0 +1,23 @@
+{
+  "name": "crispy-dollop",
+  "version": "1.0.0",
+  "description": "Crispy dollop code challenge",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --watchAll --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YounisAMAX/crispy-dollop.git"
+  },
+  "author": "Younes Lariani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YounisAMAX/crispy-dollop/issues"
+  },
+  "homepage": "https://github.com/YounisAMAX/crispy-dollop#readme",
+  "devDependencies": {
+    "jest": "^27.0.4"
+  }
+}
